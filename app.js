@@ -10,9 +10,9 @@ const mongoose = require('mongoose');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
-mongoose.connect('mongodb://localhost:27017/iron-amazon', { useNewUrlParser: true })
-  .then(() => console.log('connected'))
-  .catch(error => console.log('error', error));
+// mongoose.connect('mongodb://localhost:27017/iron-amazon', { useNewUrlParser: true })
+//   .then(() => console.log('connected'))
+//   .catch(error => console.log('error', error));
 
 const app = express();
 
